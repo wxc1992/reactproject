@@ -27,7 +27,7 @@ axios.interceptors.response.use(
     if(response.status === 400){
       // console.log('token 失败 跳转到login',router);
          localStorage.clear()
-         window.location.href = `https://sso.i.wxblockchain.com/user/login?redirectUrl= https://sql.i.wxblockchain.com`
+         window.location.href = `https://sso.baidu.com/user/login?redirectUrl= https://sql.baidu.com`
     }
 
     return response
